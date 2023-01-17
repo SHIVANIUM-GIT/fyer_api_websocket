@@ -17,7 +17,7 @@ A Python Script to automatically generate Access Token for your [FYERS API](http
 * fyers_api
 * python-dotenv
 
-##.env file formate
+## .env file formate
 * client_id=""
 * secret_key=""
 * redirect_uri=""
