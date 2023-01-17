@@ -43,7 +43,7 @@ access_token = get_access_token()
 fyers = fyersModel.FyersModel(
     client_id=client_id, token=access_token, log_path=os.getcwd())
 
-# print(fyers.get_profile())
+print(fyers.get_profile())
 # print(fyers.funds())
 # print(fyers.holdings())
 
