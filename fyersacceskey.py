@@ -39,7 +39,6 @@ def get_access_token():
 
 access_token = get_access_token()
 
-
 fyers = fyersModel.FyersModel(
     client_id=client_id, token=access_token, log_path=os.getcwd())
 
